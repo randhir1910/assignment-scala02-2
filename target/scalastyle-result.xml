@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
  <file name="/home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Operation.scala">
-  <error column="19" line="22" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="19" line="49" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
  </file>
 </checkstyle>
