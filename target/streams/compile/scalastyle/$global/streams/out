@@ -1,16 +1,15 @@
 [0m[[0m[0minfo[0m] [0m[0mscalastyle using config /home/knoldus/Downloads/assignment-scala02-2/scalastyle-config.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Operation.scala[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Operation.scala:49:19: Magic Number[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Operation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Contants.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Contants.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Application.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Application.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Payment.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Downloads/assignment-scala02-2/src/main/scala/edu/knoldus/Payment.scala[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 3 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 4 file(s)[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 1 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 warnings[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 11 ms[0m
-[0m[[0m[32msuccess[0m] [0m[0mcreated output: /home/knoldus/Downloads/assignment-scala02-2/target[0m
-[0m[[0m[33mwarn[0m] [0m[0mwarnings exist[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 6 ms[0m
