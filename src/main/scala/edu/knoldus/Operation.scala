@@ -21,17 +21,20 @@ class Operation {
 
   def blogCountIncrease(map: Map[String, Int], count: Int = blogCount): String = {
 
-    val tempMap = collection.mutable.Map() ++ map
-    val keyArray = tempMap.keySet.toArray
-    val key = keyArray(Random.nextInt(keyArray.length))
+
     if (count > 0) {
-      tempMap.update(key, tempMap(key) + 1)
-      val callMap = tempMap.toMap[String, Int]
-      blogCountIncrease(callMap, count - 1)
+
+      val keyArray = map.keySet.toArray
+      val key = keyArray(Random.nextInt(keyArray.length))
+      val value = map.getOrElse(key, 0)
+      val tempMap = map + (key -> (value + 1))
+      blogCountIncrease(tempMap, count - 1)
+
     }
     else {
-      val callMap = tempMap.toMap[String, Int]
-      favoriteBlog(callMap)
+
+      favoriteBlog(map)
+
     }
 
   }
